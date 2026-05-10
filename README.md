@@ -23,13 +23,13 @@ Machine Learning project for multi-class news category classification using trad
 
 # Team Members
 
-| Full Name            | Student ID | Email                                                                 |
-| -------------------- | ---------- | --------------------------------------------------------------------- |
-| Huỳnh Huy Hoàng      | 2311041    | [huynhhuyhoang112005@gmail.com](mailto:huynhhuyhoang112005@gmail.com) |
-| Trần Nguyễn Đức Hưng | 2311359    |                                                                       |
-| Phan Gia Phúc        | 2312709    |                                                                       |
-| Nguyễn Gia Khiêm     | 2211572    |                                                                       |
-| Nguyễn Mạnh Trung    | 2313674    |                                                                       |
+| Full Name            | Student ID |
+| -------------------- | ---------- |
+| Huỳnh Huy Hoàng      | 2311041    |
+| Trần Nguyễn Đức Hưng | 2311359    |
+| Phan Gia Phúc        | 2312709    |
+| Nguyễn Gia Khiêm     | 2211572    |
+| Nguyễn Mạnh Trung    | 2313674    |
 
 ---
 
