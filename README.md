@@ -4,24 +4,51 @@ Machine Learning project for multi-class news category classification using trad
 
 ---
 
-## Overview
+# Course Information
 
-This project focuses on classifying news articles into different categories using the **News Category Dataset** from Kaggle.
-
-The input text is created by combining:
-
-* `headline`
-* `short_description`
-
-The target output is:
-
-* `category`
-
-The project explores multiple NLP pipelines ranging from traditional TF-IDF methods to modern Transformer-based embeddings and deep learning architectures.
+* **Course:** Machine Learning (CO3107)
+* **Semester:** Semester 2
+* **Academic Year:** 2025 - 2026
+* **Faculty:** Faculty of Computer Science and Engineering
+* **University:** Ho Chi Minh City University of Technology (HCMUT)
+* **Vietnam National University - Ho Chi Minh City**
 
 ---
 
-## Dataset
+# Instructor
+
+* **Instructor:** PhD.Trương Vĩnh Lân
+
+---
+
+# Team Members
+
+| Full Name            | Student ID | Email                                                                 |
+| -------------------- | ---------- | --------------------------------------------------------------------- |
+| Huỳnh Huy Hoàng      | 2311041    | [huynhhuyhoang112005@gmail.com](mailto:huynhhuyhoang112005@gmail.com) |
+| Trần Nguyễn Đức Hưng | 2311359    |                                                                       |
+| Phan Gia Phúc        | 2312709    |                                                                       |
+| Nguyễn Gia Khiêm     | 2211572    |                                                                       |
+| Nguyễn Mạnh Trung    | 2313674    |                                                                       |
+
+---
+
+# Project Objective
+
+The objective of this project is to build a machine learning system capable of automatically classifying news articles into corresponding categories using Natural Language Processing (NLP) techniques.
+
+The project explores and compares multiple approaches, including:
+
+* Traditional Machine Learning methods
+* TF-IDF and Bag-of-Words representations
+* Transformer-based embeddings
+* Deep Learning architectures
+
+The final goal is to evaluate the effectiveness of each approach on multi-class news classification tasks.
+
+---
+
+# Dataset
 
 Dataset: **News Category Dataset**
 
@@ -32,11 +59,15 @@ Dataset: **News Category Dataset**
 
 After preprocessing, the project keeps the **Top 15 most frequent categories** to reduce class imbalance and improve training stability.
 
+Dataset link:
+
+https://www.kaggle.com/datasets/rmisra/news-category-dataset
+
 ---
 
-## Project Pipeline
+# Project Pipeline
 
-### 1. Exploratory Data Analysis (EDA)
+## 1. Exploratory Data Analysis (EDA)
 
 * Category distribution
 * Text length analysis
@@ -46,7 +77,7 @@ After preprocessing, the project keeps the **Top 15 most frequent categories** t
 
 ---
 
-### 2. Data Preprocessing
+## 2. Data Preprocessing
 
 * Missing value handling
 * Duplicate removal
@@ -59,7 +90,7 @@ After preprocessing, the project keeps the **Top 15 most frequent categories** t
 
 ---
 
-### 3. Text Representation
+## 3. Text Representation
 
 Traditional methods:
 
@@ -73,7 +104,7 @@ Transformer embeddings:
 
 ---
 
-### 4. Machine Learning Models
+## 4. Machine Learning Models
 
 Implemented models:
 
@@ -85,7 +116,7 @@ Implemented models:
 
 ---
 
-### 5. Deep Learning Model
+## 5. Deep Learning Model
 
 Custom architecture:
 
@@ -97,7 +128,7 @@ Custom architecture:
 
 ---
 
-## Best Results
+# Best Results
 
 | Model               | Accuracy | Macro F1 |
 | ------------------- | -------- | -------- |
@@ -108,23 +139,10 @@ RoBERTa embeddings achieved the best balance across categories.
 
 ---
 
-## Project Structure
-
-```bash
-news-category-classification/
-│
-├── data/
-├── notebooks/
-├── src/
-├── models/
-├── reports/
-├── results/
-└── README.md
-```
 
 ---
 
-## Installation
+# Installation
 
 Clone the repository:
 
@@ -133,36 +151,31 @@ git clone https://github.com/your-username/news-category-classification.git
 cd news-category-classification
 ```
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
-## Run Experiments
+# How To Run
 
-Example:
-
-```bash
-python src/models/linearsvc.py
-```
-
-or open notebooks:
+Open Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
+Then run notebooks inside:
+
+```bash
+notebooks/
+```
 ---
 
-## Technologies Used
+# Requirements
+
+Main libraries used in this project:
 
 * Python
-* Scikit-learn
 * Pandas
 * NumPy
+* Scikit-learn
 * NLTK
 * Transformers
 * SentenceTransformers
@@ -172,20 +185,36 @@ jupyter notebook
 
 ---
 
-## Authors
+# Report PDF
 
-* Huỳnh Huy Hoàng
-* Trần Nguyễn Đức Hưng
-* Phan Gia Phúc
-* Nguyễn Gia Khiêm
-* Nguyễn Mạnh Trung
+Project report:
 
-Faculty of Computer Science and Engineering
-Ho Chi Minh City University of Technology (HCMUT)
+```bash
+reports/final_report.pdf
+```
 
 ---
 
-## References
+# Google Kaggle Notebooks
+
+* Feature Extraction:
+  https://www.kaggle.com/code/kimanaru/tr-ch-xu-t-c-tr-ng-m-h-nh
+
+* Bow RandomForest, LightGBM, LinearSVC:
+  https://www.kaggle.com/code/hoanghaha/bow-models-randomforest-lightgbm-linearsvc 
+
+* Deep Learning Pipeline:
+  https://www.kaggle.com/code/kimanaru/pipeline-h-c-s-u
+
+* BERT + LinearSVC:
+  https://www.kaggle.com/code/kimanaru/bert-linearsvc 
+
+* TF-IDF + Catboost:
+  https://www.kaggle.com/code/kimanaru/bert-linearsvc 
+https://www.kaggle.com/code/huyhonghunh/th-c-c-tr-ch-xu-t-model?scriptVersionId=317112987
+---
+
+# References
 
 * HuggingFace Transformers
 * Scikit-learn Documentation
