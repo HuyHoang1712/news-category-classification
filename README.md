@@ -195,9 +195,9 @@ reports/final_report.pdf
 
 ---
 
-# Google Kaggle Notebooks
+# Kaggle Notebooks
 
-* Feature Extraction:
+* Feature Extraction + TF_IDF,Linear_SVC:
   https://www.kaggle.com/code/kimanaru/tr-ch-xu-t-c-tr-ng-m-h-nh
 
 * Bow RandomForest, LightGBM, LinearSVC:
@@ -213,6 +213,8 @@ reports/final_report.pdf
   https://www.kaggle.com/code/kimanaru/bert-linearsvc 
 https://www.kaggle.com/code/huyhonghunh/th-c-c-tr-ch-xu-t-model?scriptVersionId=317112987
 ---
+* TF-IDF + RandomForest:
+  https://www.kaggle.com/code/phcphangia/tf-idf-and-random-forest/edit
 
 # References
 
